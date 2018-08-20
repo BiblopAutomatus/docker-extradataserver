@@ -4,5 +4,5 @@ MAINTAINER Biblop <biblop@protonmail.com>
 
 WORKDIR var/www/
 COPY www/ .
-EXPOSE 8123
-CMD [ "python", "-m", "SimpleHTTPServer", "8123" ]
+EXPOSE 80
+CMD [ "python", "-m", "SimpleHTTPServer", "80" ]
